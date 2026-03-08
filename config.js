@@ -24,8 +24,10 @@ let config = {
 	modules: [
 		{
 			module: "clock",
-			position: "top_left"
-			showSeconds: false
+			position: "top_left",
+			config: {
+				showSeconds: false
+			}
 		},
 		{
 			module: "weather",
