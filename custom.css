@@ -2,7 +2,7 @@
 
 /* Clock */
 .module.clock .digital {
-    font-size: 220px;
+    font-size: 220px !important;
     font-weight: 200;
     letter-spacing: 2px;
 }
@@ -42,7 +42,7 @@
 
 /* Bible Verse */
 .MMM-DailyBibleVerse {
-    font-size: 30px;
+    font-size: 30px !important;
     font-weight: 300;
     opacity: 0.75;
     max-width: 100%;
