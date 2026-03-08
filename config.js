@@ -65,10 +65,10 @@ let config = {
 			module: "MMM-Wallpaper",
 			position: "fullscreen_below",
 			config: {
-				source: "apod",
+				source: "apod-hd",
 				slideInterval: 5 * 60 * 1000,
 				maximumEntries: 10,
-				filter: "grayscale(100%) brightness(0.15)"
+				filter: "grayscale(100%) brightness(0.25)"
 			}
 		},
 	]
