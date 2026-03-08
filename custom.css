@@ -1,0 +1,63 @@
+/* General body styles */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Clock */
+.clock {
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.clock .date {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+/* Weather */
+.weather .large {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.weather .small {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.weatherforecast {
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+/* Bible Verse */
+.MMM-DailyBibleVerse {
+    font-size: 13px;
+    font-style: italic;
+    opacity: 0.85;
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* General module headers */
+.module-header {
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    padding-bottom: 5px;
+}
+
+/* Divider lines between modules */
+.module {
+    border-bottom: none;
+    padding: 10px 0;
+}
