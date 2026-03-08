@@ -25,6 +25,7 @@ let config = {
 		{
 			module: "clock",
 			position: "top_left"
+			showSeconds: false
 		},
 		{
 			module: "weather",
