@@ -65,7 +65,7 @@ let config = {
 			module: "MMM-Wallpaper",
 			position: "fullscreen_below",
 			config: {
-				source: "nasa",
+				source: "apod",
 				slideInterval: 5 * 60 * 1000,
 				maximumEntries: 10,
 				filter: "grayscale(100%) brightness(0.15)"
