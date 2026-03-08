@@ -3,8 +3,8 @@
 /* Clock */
 .module.clock .digital {
     font-size: 220px !important;
-    font-weight: 200;
-    letter-spacing: 2px;
+    font-weight: 200 !important;
+    letter-spacing: 2px !important;
 }
 
 .module.clock .date {
