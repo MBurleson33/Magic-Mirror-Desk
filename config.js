@@ -21,6 +21,10 @@ let config = {
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"],
 	timeFormat: 12,
 	units: "imperial",
+	electronOptions: {
+		fullscreen: true,
+		kiosk: true
+	},
 	modules: [
 		{
 			module: "clock",
