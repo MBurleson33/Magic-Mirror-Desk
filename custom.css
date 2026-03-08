@@ -17,7 +17,7 @@ body {
     font-weight: 300;
     letter-spacing: 3px;
     text-transform: uppercase;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 /* Weather */
@@ -28,24 +28,33 @@ body {
 
 .weather .small {
     font-size: 14px;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .weatherforecast {
     font-size: 13px;
-    opacity: 0.9;
+    opacity: 0.8;
+}
+
+/* Make weather icons bigger */
+.weather .wi {
+    font-size: 48px;
+}
+
+.weatherforecast .wi {
+    font-size: 20px;
 }
 
 /* Bible Verse */
 .MMM-DailyBibleVerse {
-    font-size: 14px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 300;
-    opacity: 0.85;
+    opacity: 0.75;
     max-width: 100%;
     width: 100%;
     text-align: center;
-    line-height: 1.8;
+    line-height: 2;
     padding: 0 60px;
 }
 
@@ -54,11 +63,31 @@ body {
     font-size: 12px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    opacity: 0.6;
+    opacity: 0.5;
     padding-bottom: 5px;
 }
 
-/* General module padding */
+/* Subtle divider line between modules */
 .module {
-    padding: 10px 0;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Dim/fade effect on all text */
+.module {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Slightly dim secondary info */
+.dimmed {
+    opacity: 0.5;
+}
+
+.bright {
+    opacity: 0.9;
 }
