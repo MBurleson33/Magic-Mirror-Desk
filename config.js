@@ -68,7 +68,7 @@ let config = {
 				source: "nasa",
 				slideInterval: 5 * 60 * 1000,
 				maximumEntries: 10,
-				filter: "grayscale(0%) brightness(0.5)"
+				filter: "grayscale(100%) brightness(0.15)"
 			}
 		},
 	]
