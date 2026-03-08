@@ -1,8 +1,17 @@
 /* General body styles */
 body {
-    background-color: #000;
+    background: linear-gradient(135deg, #000000, #111111, #0a0a0a, #161616, #000000);
+    background-size: 400% 400%;
+    animation: gradientRotate 45s ease infinite;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+}
+
+/* Rotating gradient background animation */
+@keyframes gradientRotate {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* Clock */
@@ -36,13 +45,13 @@ body {
     opacity: 0.8;
 }
 
-/* Make weather icons bigger */
+/* Fix weather forecast icons size */
 .weather .wi {
-    font-size: 48px;
+    font-size: 32px;
 }
 
 .weatherforecast .wi {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Bible Verse */
@@ -71,10 +80,6 @@ body {
 .module {
     padding: 12px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-/* Dim/fade effect on all text */
-.module {
     animation: fadeIn 1.5s ease-in-out;
 }
 
@@ -83,23 +88,10 @@ body {
     to { opacity: 1; }
 }
 
-/* Slightly dim secondary info */
 .dimmed {
     opacity: 0.5;
 }
 
 .bright {
     opacity: 0.9;
-}
-/* Rotating gradient background animation */
-@keyframes gradientRotate {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-body {
-    background: linear-gradient(135deg, #000000, #1a1a1a, #0d0d0d, #222222, #000000);
-    background-size: 400% 400%;
-    animation: gradientRotate 15s ease infinite;
 }
