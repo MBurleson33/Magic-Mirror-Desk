@@ -1,6 +1,4 @@
 
-/* General body styles */
-
 
 /* Clock */
 .module.clock .digital {
@@ -64,6 +62,12 @@
     padding-bottom: 5px;
 }
 
+/* Subtle divider line between modules */
+.module {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    animation: fadeIn 1.5s ease-in-out;
+}
 
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -75,3 +79,10 @@
 }
 
 .bright {
+    opacity: 0.9;
+}
+
+/* Hide MMM-Wallpaper title */
+.MMM-Wallpaper .module-header {
+    display: none;
+}
