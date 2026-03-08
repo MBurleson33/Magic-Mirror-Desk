@@ -26,7 +26,7 @@ let config = {
 			module: "clock",
 			position: "top_left",
 			config: {
-				showSeconds: false
+				displaySeconds: false
 			}
 		},
 		{
