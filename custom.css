@@ -6,13 +6,13 @@ body {
 }
 
 /* Clock */
-.clock {
+.module.clock .digital {
     font-size: 80px;
     font-weight: 200;
     letter-spacing: 2px;
 }
 
-.clock .date {
+.module.clock .date {
     font-size: 22px;
     font-weight: 300;
     letter-spacing: 3px;
@@ -47,11 +47,6 @@ body {
     text-align: center;
     line-height: 1.8;
     padding: 0 60px;
-}
-
-/* Hide section headers in Bible verse like [Praise to the God of All Comfort] */
-.MMM-DailyBibleVerse span:first-child {
-    display: none;
 }
 
 /* General module headers */
