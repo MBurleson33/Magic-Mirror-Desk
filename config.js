@@ -50,6 +50,13 @@ let config = {
 				lon: -97.5164
 			}
 		},
+		{
+			module: "MMM-DailyBibleVerse",
+			position: "bottom_center",
+			config: {
+				version: "NIV"
+			}
+		},
 	]
 };
 
