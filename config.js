@@ -58,7 +58,7 @@ let config = {
 				source: "apod-hd",
 				slideInterval: 5 * 60 * 1000,
 				maximumEntries: 10,
-				filter: "brightness(0.125)"
+				filter: "grayscale(100%) brightness(0.125)"
 			}
 		},
 		{
