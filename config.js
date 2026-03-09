@@ -65,7 +65,7 @@ let config = {
 			module: "MMM-MagicMover",
 			position: "bottom_left",
 			config: {
-				moveInterval: 30 * 1000,
+				moveInterval: 10 * 1000,
 				moveAnimation: 1000
 			}
 		},
