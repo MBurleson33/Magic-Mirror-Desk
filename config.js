@@ -1,13 +1,3 @@
-/* Config Sample
- *
- * For more information on how you can configure this file
- * see https://docs.magicmirror.builders/configuration/introduction.html
- * and https://docs.magicmirror.builders/modules/configuration.html
- *
- * You can use environment variables using a `config.js.template` file instead of `config.js`
- * which will be converted to `config.js` while starting. For more information
- * see https://docs.magicmirror.builders/configuration/introduction.html#enviromnent-variables
- */
 let config = {
 	address: "localhost",
 	port: 8080,
@@ -68,7 +58,15 @@ let config = {
 				source: "apod-hd",
 				slideInterval: 5 * 60 * 1000,
 				maximumEntries: 10,
-				filter: "grayscale(100%) brightness(0.125)"
+				filter: "brightness(0.125)"
+			}
+		},
+		{
+			module: "MMM-MagicMover",
+			position: "bottom_left",
+			config: {
+				moveInterval: 30 * 1000,
+				moveAnimation: 1000
 			}
 		},
 	]
