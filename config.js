@@ -59,7 +59,7 @@ let config = {
 				source: ["/r/spaceporn", "/r/hubble", "/r/astrophotography"],
 				slideInterval: 5 * 60 * 1000,
 				maximumEntries: 10,
-				filter: "grayscale(100%) brightness(0.5)"
+				filter: "grayscale(100%) brightness(0.45)"
 			}
 		},
 		{
