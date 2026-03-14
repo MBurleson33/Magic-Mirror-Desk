@@ -3,14 +3,14 @@
     display: none !important;
 }
 
-.MMM-DailyBibleVerse {
+/* Float Bible Verse freely over the screen */
+.module.MMM-DailyBibleVerse {
+    position: fixed !important;
+    bottom: 40px !important;
+    left: 20px !important;
+    width: 55% !important;
+    max-width: 55% !important;
     text-align: left;
     line-height: 1.6;
-    padding: 0 10px 0 20px;
-    margin-top: 30px;
-}
-
-.region.bottom.left {
-    width: 70% !important;
-    max-width: 70% !important;
+    z-index: 100;
 }
