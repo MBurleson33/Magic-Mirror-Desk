@@ -46,7 +46,7 @@ let config = {
 		},
 		{
 			module: "MMM-DailyBibleVerse",
-			position: "bottom_left",
+			position: "bottom_bar",
 			config: {
 				version: "ESV",
 				size: "xsmall"
