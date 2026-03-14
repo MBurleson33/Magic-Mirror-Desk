@@ -8,7 +8,7 @@
     position: fixed !important;
     bottom: 40px !important;
     left: 20px !important;
-    right: 20px;
+    right: 20px !important;
     width: auto !important;
     max-width: none !important;
     text-align: left;
