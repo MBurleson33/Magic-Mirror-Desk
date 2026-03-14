@@ -2,27 +2,3 @@
 .MMM-Wallpaper .title {
     display: none !important;
 }
-
-/* Float Bible Verse freely over the screen */
-.module.MMM-DailyBibleVerse {
-    position: fixed !important;
-    bottom: 40px !important;
-    left: 20px !important;
-    right: 20px !important;
-    width: auto !important;
-    max-width: none !important;
-    text-align: left;
-    line-height: 1.6;
-    z-index: 100;
-}
-
-/* Target the inner text element */
-.module.MMM-DailyBibleVerse div,
-.module.MMM-DailyBibleVerse span,
-.module.MMM-DailyBibleVerse .bright {
-    width: 100% !important;
-    max-width: none !important;
-    display: block !important;
-    white-space: normal !important;
-    word-wrap: break-word !important;
-}
