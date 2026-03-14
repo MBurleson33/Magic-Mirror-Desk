@@ -41,32 +41,6 @@ body {
     font-size: 12px;
 }
 
-/* Bible Verse */
-.MMM-DailyBibleVerse {
-    opacity: 0.75;
-    max-width: 100%;
-    width: 100%;
-    text-align: left;
-    line-height: 1.6;
-    padding: 0 10px 0 20px;
-    margin-bottom: 20px;
-}
-
-/* General module headers */
-.module-header {
-    font-size: 9px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    opacity: 0.5;
-    padding-bottom: 5px;
-}
-
-/* Subtle divider line between modules */
-.module {
-    padding: 6px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    animation: fadeIn 1.5s ease-in-out;
-}
 
 @keyframes fadeIn {
     from { opacity: 0; }
