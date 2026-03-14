@@ -4,9 +4,8 @@
 }
 
 .MMM-DailyBibleVerse {
-    max-width: 120%;
     text-align: left;
-    lin-height: 1.6;
+    line-height: 1.6;
     padding: 0 10px 0 20px;
     margin-top: 30px;
 }
