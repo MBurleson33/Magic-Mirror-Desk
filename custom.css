@@ -2,3 +2,8 @@
 .MMM-Wallpaper .title {
     display: none !important;
 }
+
+/* Widen the bottom left region */
+.region.bottom.left {
+    width: calc(60% - 60px) !important;
+}
