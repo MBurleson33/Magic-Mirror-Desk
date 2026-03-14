@@ -5,5 +5,5 @@
 
 /* Widen the bottom left region */
 .region.bottom.left {
-    width: calc(80% - 60px) !important;
+    width: 75% !important;
 }
