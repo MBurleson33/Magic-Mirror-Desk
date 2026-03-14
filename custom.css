@@ -1,6 +1,12 @@
-
-
 /* Hide MMM-Wallpaper title */
 .MMM-Wallpaper .title {
     display: none !important;
+}
+
+.MMM-DailyBibleVerse {
+    max-width: 60%;
+    text-align: left;
+    lin-height: 1.6;
+    padding: 0 10px 0 20px;
+    margin-top: 20px;
 }
