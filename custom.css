@@ -1,1 +1,87 @@
+/* General body styles */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* Clock */
+.module.clock .date {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+/* Weather */
+.weather .large {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.weather .small {
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+.weatherforecast {
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+/* Fix weather forecast icons size */
+.weather .wi {
+    font-size: 18px;
+}
+
+.weatherforecast .wi {
+    font-size: 12px;
+}
+
+/* Bible Verse */
+.MMM-DailyBibleVerse {
+    opacity: 0.75;
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+    line-height: 1.6;
+    padding: 0 10px 0 20px;
+    margin-bottom: 20px;
+}
+
+/* General module headers */
+.module-header {
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    padding-bottom: 5px;
+}
+
+/* Subtle divider line between modules */
+.module {
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.dimmed {
+    opacity: 0.5;
+}
+
+.bright {
+    opacity: 0.9;
+}
+
+/* Hide MMM-Wallpaper title */
+.MMM-Wallpaper .title {
+    display: none !important;
+}
