@@ -8,8 +8,9 @@
     position: fixed !important;
     bottom: 40px !important;
     left: 20px !important;
-    width: 80% !important;
-    max-width: 80% !important;
+    right: 20px;
+    width: auto !important;
+    max-width: none !important;
     text-align: left;
     line-height: 1.6;
     z-index: 100;
