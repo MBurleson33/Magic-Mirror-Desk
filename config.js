@@ -13,45 +13,11 @@ let config = {
 	units: "imperial",
 	electronOptions: {
 		fullscreen: true,
-		kiosk: true
+		kiosk: true,
+		width: 1024,
+		height: 600
 	},
 	modules: [
-		{
-			module: "clock",
-			position: "top_left",
-			config: {
-				displaySeconds: false
-			}
-		},
-		{
-			module: "weather",
-			position: "top_right",
-			config: {
-				weatherProvider: "openmeteo",
-				type: "current",
-				lat: 35.4676,
-				lon: -97.5164
-			}
-		},
-		{
-			module: "weather",
-			position: "top_right",
-			header: "Weather Forecast",
-			config: {
-				weatherProvider: "openmeteo",
-				type: "forecast",
-				lat: 35.4676,
-				lon: -97.5164
-			}
-		},
-		{
-			module: "MMM-DailyBibleVerse",
-			position: "bottom_left",
-			config: {
-				version: "ESV",
-				size: "xsmall"
-			}
-		},
 		{
 			module: "MMM-Wallpaper",
 			position: "fullscreen_below",
@@ -64,10 +30,64 @@ let config = {
 		},
 		{
 			module: "MMM-MagicMover",
-			position: "bottom_left",
 			config: {
 				updateInterval: 5 * 60 * 1000,
-        maxMove: 15
+				maxMove: 15
+			}
+		},
+		{
+			module: "clock",
+			position: "middle_center",
+			classes: "page1",
+			config: {
+				displaySeconds: false
+			}
+		},
+		{
+			module: "weather",
+			position: "top_right",
+			classes: "page2",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "current",
+				lat: 35.4676,
+				lon: -97.5164,
+				location: "Oklahoma City, US-OK"
+			}
+		},
+		{
+			module: "weather",
+			position: "middle_center",
+			classes: "page2",
+			header: "Weather Forecast",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "forecast",
+				lat: 35.4676,
+				lon: -97.5164,
+				location: "Oklahoma City, US-OK"
+			}
+		},
+		{
+			module: "MMM-DailyBibleVerse",
+			position: "middle_center",
+			header: "Verse of the Day",
+			classes: "page3",
+			config: {
+				version: "ESV",
+				size: "small"
+			}
+		},
+		{
+			module: "MMM-pages",
+			config: {
+				modules: [
+					["page1"],
+					["page2"],
+					["page3"]
+				],
+				fixed: ["MMM-Wallpaper", "MMM-MagicMover"],
+				rotationTime: 30000
 			}
 		},
 	]

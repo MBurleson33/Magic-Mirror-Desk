@@ -3,7 +3,68 @@
     display: none !important;
 }
 
-/* Widen the bottom left region */
-.region.bottom.left {
-    width: 85% !important;
+/* Page 1 - Clock */
+.page1 .time {
+    font-size: 160px !important;
+    font-weight: 200 !important;
+    letter-spacing: 4px !important;
+}
+
+.page1 .date {
+    font-size: 28px !important;
+    font-weight: 300 !important;
+    letter-spacing: 4px !important;
+    text-transform: uppercase !important;
+    opacity: 0.8 !important;
+}
+
+/* Page 2 - Weather */
+.page2 .weather .large {
+    font-size: 32px !important;
+    font-weight: 300 !important;
+}
+
+.page2 .weather .small {
+    font-size: 13px !important;
+    opacity: 0.8 !important;
+}
+
+.page2 .weatherforecast {
+    font-size: 13px !important;
+}
+
+.page2 .weather .wi {
+    font-size: 28px !important;
+}
+
+.page2 .weatherforecast .wi {
+    font-size: 16px !important;
+}
+
+.page2 .module-header {
+    display: block !important;
+    font-size: 13px !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    opacity: 0.7 !important;
+}
+
+/* Page 3 - Bible Verse */
+.page3 .MMM-DailyBibleVerse,
+.page3 .MMM-DailyBibleVerse .bright,
+.page3 .MMM-DailyBibleVerse .small {
+    font-size: 18px !important;
+    font-style: italic !important;
+    font-weight: 300 !important;
+    opacity: 0.9 !important;
+    line-height: 2 !important;
+    text-align: center !important;
+}
+
+/* Page 3 - Bible Verse Header */
+.page3 .module-header {
+    font-size: 20px !important;
+    letter-spacing: 4px !important;
+    text-transform: uppercase !important;
+    opacity: 0.7 !important;
 }
